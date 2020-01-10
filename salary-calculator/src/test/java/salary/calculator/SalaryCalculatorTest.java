@@ -34,7 +34,6 @@ public class SalaryCalculatorTest {
     final double expected = 1000;
 
     final DirectorPolymorphism employee = new DirectorPolymorphism(10);
-
     final double actual = employee.salary();
 
     Assertions.assertEquals(expected, actual);
@@ -46,7 +45,6 @@ public class SalaryCalculatorTest {
     final double expected = 1000;
 
     final DirectorVisitor employee = new DirectorVisitor(10);
-
     final double actual = employee.accept(new SalaryCalculationVisitor());
 
     Assertions.assertEquals(expected, actual);

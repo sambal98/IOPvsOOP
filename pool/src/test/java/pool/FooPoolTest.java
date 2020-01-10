@@ -13,7 +13,8 @@ public class FooPoolTest {
     final Foo expectedFoo_0 = new Foo();
     final Foo expectedFoo_1 = new Foo();
     final Foo expectedFoo_2 = new Foo();
-    final FooPool fooPool = new FooPool(new Foo[] {expectedFoo_0, expectedFoo_1, expectedFoo_2});
+    final FooPool fooPool = //
+        new FooPool(new Foo[] {expectedFoo_0, expectedFoo_1, expectedFoo_2});
 
     Assertions.assertEquals(expectedFoo_0, fooPool.get());
     Assertions.assertEquals(expectedFoo_1, fooPool.get());
@@ -22,7 +23,6 @@ public class FooPoolTest {
 
   @Test
   public void testFooPoolMath() {
-
     final Foo expectedFoo_0 = new Foo();
     final Foo expectedFoo_1 = new Foo();
     final Foo expectedFoo_2 = new Foo();
