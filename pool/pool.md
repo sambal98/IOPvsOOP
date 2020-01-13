@@ -1,7 +1,9 @@
 # Pool
 In questo esempio ci saranno due Classi pool che dato un array, alla chiamata del metodo get restituiranno ogni volta l'elemento successivo in loop.
 
-## FooPool :
+## Prima soluzione (IF):
+
+### FooPool :
 ```java
 public class FooPool {
 
@@ -23,6 +25,10 @@ public class FooPool {
   }
 }
 ```
+
+## Seconda soluzione (IF):
+
+In questo caso per togliere l'IF è bastata un po' di aritmetica
 
 ## FooPoolMath :
 ```java
